@@ -1,0 +1,63 @@
+.main {
+    background-image: url("https://ipt.imgix.net/205471/x/0/stockimages-spring-cherry-tree-1225186-1920.jpg?auto=format%2Ccompress&crop=faces%2Cedges%2Ccenter&bg=%23fff&fit=crop&q=35&h=1111&dpr=1");
+    
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align:center;
+    
+    
+
+}
+.text1{
+    background-color: white;
+    text-align:center;
+}
+
+.main2{
+    background-image: url("https://ipt.imgix.net/205472/x/0/13-photography-ideas-you-need-to-try-in-spring-4.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+
+.text2{
+    background-color: black;
+    height: 100px;
+    text-align:left;
+    color:white
+}
+
+.main3{
+    background-image: url("https://ipt.imgix.net/205478/x/0/13-photography-ideas-you-need-to-try-in-spring-9.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883");
+    height: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
+.text3{
+    background-color: black;
+    height: 100px;
+    text-align:left;
+    color:white
+}
+
+.last{
+    background-image: url("https://ipt.imgix.net/205471/x/0/stockimages-spring-cherry-tree-1225186-1920.jpg?auto=format,compress&crop=faces,edges,center&bg=%2523fff&fit=crop&q=35&h=1111&dpr=1");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align:center;
+
+}
