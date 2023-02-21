@@ -1,0 +1,45 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+}
+
+h1 {
+    /* width: 100px; */
+    padding: 0px 900px;
+
+
+
+}
+
+
+#one {
+
+    /* border: 210px,solid, grey, ; */
+    background-color: blueviolet;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#two {
+    background-color: green;
+    border: 3px dashed grey;
+    /* border-width: 5px;
+    border-color: aqua;
+    border-style: solid; */
+    /* border-radius: 50%; */
+    padding-right: 50px;
+    
+   
+}
+
+#three {
+    background-color: aquamarine;
+    border-width: 5px;
+    border-color: black;
+    border-style: dashed;
+
+}

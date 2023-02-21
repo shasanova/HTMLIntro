@@ -1,0 +1,41 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+}
+
+h1 {
+    background-color: aqua;
+    width: 100px;
+}
+
+
+
+
+
+#one {
+
+    /* border: 210px,solid, grey, ; */
+    background-color: blueviolet;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#two {
+    background-color: green;
+    border-width: 5px;
+    border-color: aqua;
+    border-style: solid;
+    /* border-radius: 50%; */
+}
+
+#three {
+    background-color: aquamarine;
+    border-width: 5px;
+    border-color: black;
+    border-style: dashed;
+
+}

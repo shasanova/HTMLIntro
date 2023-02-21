@@ -1,0 +1,51 @@
+.sign-in{
+    background: url("./Untitled.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.content{
+   
+    color: #FFFFFF;
+    width: 400px;
+    height: 406px;
+    padding-left: 35rem;
+    padding-top:10rem;
+
+}
+.content button{
+    color: #FFFFFF;
+    width: 19rem ;
+    height: 40px;
+    border-radius: 10px;
+    background: #20DF7F ;
+}
+
+.sign-in p{
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.sign-in h1{
+    padding-left: 130px;
+    margin-bottom: 35px;
+}
+
+
+.inputs{ 
+    accent-color: #224957;
+    width: 19rem ;
+    height: 40px;
+    border-radius: 10px;
+   
+}
+
+
+.content a{
+    color: #20DF7F;
+    margin-left: 75px;
+}
