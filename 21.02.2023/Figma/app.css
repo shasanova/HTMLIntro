@@ -1,0 +1,214 @@
+.header {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 34px;
+    padding-left: 766px;
+    padding-right: 781px;
+    padding-bottom: 35px;
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    color: #109E97;
+
+}
+
+p {
+    margin-top: 5px;
+    line-height: 27px;
+    font-size:25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.price1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #008000;
+    line-height: 29px;
+    width: 127px;
+    height: 29px;
+
+}
+
+.price2 {
+    color: #FF0000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    width: 72px;
+    height: 18px;
+}
+
+.book{
+    width: 200px;
+    height: 302px;
+    margin-top: 18px;
+}
+.content{
+    width: 100%;
+    height: 256px;
+    background-color: #000000;
+    color: #FFFFFF;
+    line-height: 21px;
+    text-align: right;
+    padding-top: 40px;
+    padding-left: 42px;
+    padding-bottom: 100px;
+    margin-bottom: 90px; 
+
+
+}
+
+.content h2{
+    font-size: 50px;
+    line-height: 23px;
+    padding-top: 10px;
+
+}
+
+.boldhr{
+    border: 1px solid #000000;
+    background-color:#000000;
+    width: 100%;
+    height: 2px;
+}
+
+.table h3{
+    font-family: 'Roboto', sans-serif;
+    line-height: 19px;
+    font-size: 25px;
+    font-weight: 400px;
+    width: 138px;
+    height: 19px;
+}
+table th, td{
+    border: 1px solid;
+    
+}
+table{
+    width: 100%;
+    height: 196px;
+}
+
+.table-underline{
+    margin-top: 47px;
+    border: 2px solid;
+}
+
+
+
+.forms{
+    width: 400px;
+    text-align: center;
+
+}
+
+.input-header{
+    line-height: 28px;
+    font-size: 34px;
+
+}
+
+.first-input label{
+    padding-top: 14px;
+    font-size: 23px;
+ 
+
+}
+
+.first-input input{
+    width: 190px;
+    height: 21px;
+    border: 2px solid #767676;
+}
+
+
+.first-input p{
+    padding-left: 74px;
+    font-size: 23px;
+
+    text-align: center;
+    
+}
+
+
+.second-input label{
+    padding-top: 14px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+.second-input input{
+    width: 154px;
+    height: 25px;
+    border: 2px solid #767676;
+}
+
+.third-input label{
+    padding-top: 23px;
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+
+.third-input input{
+    width: 93px;
+    height: 20px;
+    border: 1px solid #767676;
+    background: #DDDDDD;;
+}
+
+.fourth-input label{
+    padding-top: 25px;
+    margin-right: 6px;
+    font-size: 20px;
+}
+
+.fourth-input input{
+    width: 129px;
+    height: 20px;
+   
+
+}
+
+.last-input label{
+    line-height: 28px;
+    font-size: 20px;
+
+}
+
+.last-input input{
+    background: #FFFFFF;
+    border: 1px solid #767676;
+    width: 261px;
+    height: 156px;
+}
+
+
+button{
+    width: 120px;
+    height: 50px;
+    background: #109E97;
+    border: 2px solid #767676;  
+    margin-top: 22px;
+}
+
+.links{
+    color: #0000EE;
+    width: 55px;
+    height: 16px;
+    margin-bottom: 100px;
+}
+
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 42px;
+    color:#FFFFFF;
+    background: #109E97;
+
+}
+

@@ -1,0 +1,157 @@
+.navbar{
+    background-color: black;
+    padding-bottom: 2rem;
+    padding-top: 5px;
+    
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.links{
+    
+    margin-left: 100rem;
+    
+}
+a{
+    color: white;
+}
+
+.main{
+    background-color: blue;
+    padding: 50px;
+    color: white;
+    padding-left: 95rem;
+    /* display: grid;
+    justify-content: space-around; */
+  
+}
+.main h1{
+    padding-left: 5rem;
+}
+button{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+
+.services{
+    background-color: grey;
+}
+
+footer{
+    color: white;
+    background-color: black;
+}
+
+.about{
+
+    padding: 51px 90rem;
+
+}
+.services{
+    
+    padding: 51px 90rem;
+
+}
+
+.contact{
+    padding: 51px 90rem;
+
+}
+footer{
+    padding: 10px 90rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .commonpart{
+
+    background-color: white;
+    padding: 3% 27% 3% 27%;
+    display: grid;
+    justify-content: center;
+
+
+}
+
+.firstpart{
+    background-color: blue;
+    width: 100%;
+    height: 20%;
+
+    padding-top: 5%;
+    padding-bottom:  5%;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    
+} 
+
+.commonpart ul {
+    width:600px;
+    height: 80px;
+    padding-left: 625px;
+    padding-right: 600px;
+}
+
+
+.commonpart h2{
+    width:600px;
+    height: 10px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+
+.commonpart p{
+
+    width:600px;
+    height: 40px;
+    padding-left: 600px;
+    padding-right: 600px;
+    font-size: larger;
+
+
+}
+
+
+
+
+
+
+.thirdpart{
+    background-color:whitesmoke;
+  
+} */
