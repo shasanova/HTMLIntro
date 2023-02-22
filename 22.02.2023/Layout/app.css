@@ -19,7 +19,74 @@ a{
 }
 
 .links a{
-   margin-left: 55rem;
+   margin-left: 100rem;
+  
    
 }
 /* Header Section End */
+
+
+/* Main section start */
+
+
+/* Section  first-part Start*/
+#first-part{
+    background-image: url("./photo-1468657988500-aca2be09f4c6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    color: white;
+
+
+}
+
+.center-content{
+    padding-left: 57rem;
+    padding-top: 40px;
+    
+  
+}
+.center-content img{
+    border-radius: 50%;
+    width: 130px;
+   
+}
+/* Section  first-part End */
+
+
+
+/* Section  second-part Start */
+#second-part{
+  
+ 
+    height: 190px;
+    width: 100%;
+    color: black;
+    padding-top: 25px;
+    text-align: center;
+}
+/* Section  second-part End */
+
+
+
+/* Div third-part Start */
+#third-part {
+    height: 20rem;
+    background-image: url("./moon.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Div third-part End */
+
+
+/* Footer Start */
+footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding-top: 50px;
+    height: 80px;
+}
+/* Footer Start */
