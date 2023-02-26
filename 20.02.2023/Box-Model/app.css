@@ -1,64 +1,70 @@
-.sign-in {
-    background: url("./Untitled.png");
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
+body > div{
+    padding: 157px 490px;
+    background-image: url("./Untitled.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
-
-}
-
-.content {
-
-    color: #FFFFFF;
-    width: 400px;
-    height: 406px;
-    padding-left: 35rem;
-    padding-top: 10rem;
-
-}
-
-.content button {
-    color: #FFFFFF;
-    width: 19rem;
-    height: 40px;
-    border-radius: 10px;
-    background: #20DF7F;
-}
-
-.sign-in p {
-    margin-bottom: 36px;
-    padding-left: 10px;
-}
-
-.sign-in h1 {
-    padding-left: 130px;
-    margin-bottom: 35px;
-}
-
-
-input {
-
-    background-color: #224957;
-    width: 300px;
-    color: #fff;
-    border-radius: 10px;
-    padding: 13px 18px;
-    margin-bottom: 32px;
-
-
-}
-
-input[type="checkbox"]{
-   accent-color: #224957;
+    background-size:cover;
   
+
 }
 
-.last{
-    padding-left: 2rem;
+
+
+.form-title{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 39px;
 }
 
-.content a {
-    color: #20DF7F;
-    margin-left: 75px;
+p{
+    color: white;
+    margin-bottom: 36px;
 }
+
+.inputs{
+    width: 300px;
+    padding:13px 18px ;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: white;
+    margin-bottom: 32px;
+    
+}
+
+
+
+
+.rmb{
+    accent-color:#da2222
+
+}
+
+label{
+    color: white;
+    margin-right: 45px;
+
+}
+
+.forget{
+    color: coral;
+}
+
+button{
+
+    background-color: greenyellow;
+    color: black;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 12px 128px;
+}
+
+
+
+
+
+
+
+
+
+
+

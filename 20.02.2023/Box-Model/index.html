@@ -6,37 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="./reset.css"> -->
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./app.css">
 
     <title>Document</title>
 </head>
 
 <body>
-    <section class="sign-in">
+    <div>
+        <h1 class="form-title"> Sign in</h1>
+        <p>Sign in and start managing your candidates!</p>
 
-        <section class="content">
-            <h1 id="header"> Sign in</h1>
-            <p>Sign in and start managing your candidates!</p>
-            <form action="#">
-                <input class="inputs" type="text" id="login" placeholder="Login"><br>
-                <br>
-                <input class="inputs" type="password" id="psw" placeholder="Password"><br>
-                <br>
-                <div class="last">
-                    <input type="checkbox">
-                    <label for="remember me" id="remember">Remember me</label>
-                    <a href="#">Forgot password?</a><br>
-                </div>
-                <br>
-                <button>Login</button>
-            </form>
-        </section>
+        <form action="#">
+            <input class="inputs" type="text" name="email" placeholder="Login"><br>
+            <br>
+            <input class="inputs" type="password" placeholder="Password"><br>
+            <br>
 
 
-    </section>
+            <div>
+                <input class="rmb" type="checkbox" id="remember-btn">
+                <label for="remember-btn">Remember me</label>
+                <a class="forget" href="#" target="_blank">Forgot password?</a>
+            </div>
 
-
-
+          
+            <button>Login</button>
+        </form>
+    </div>
 
 
 </body>
