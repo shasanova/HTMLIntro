@@ -1,0 +1,84 @@
+#wrapper{
+    color: #fff;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:24px ;
+    row-gap: 24px;
+    align-items:center;
+    
+}
+
+
+#algo-expert{
+    border: 1px solid rgb(94, 218, 218);
+    background-color:  rgb(94, 218, 218);
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  
+
+}
+
+
+#systems-expert{
+    border: 1px solid rgb(221, 18, 21);
+    background-color:  rgb(221, 18, 21);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    order: -5;
+    flex-grow: 5;
+  
+
+
+}
+
+
+
+#ml-expert{
+    border: 1px solid rgb(221, 208, 18);
+    background-color:  rgb(221, 208, 18);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    order: -2;
+  
+    
+
+}
+
+
+#frontend-expert{
+
+    border: 1px solid rgb(18, 214, 221);
+    background-color:  rgb(18, 214, 221);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+
+
+
+
+}
+
+#programming-expert{
+    border: 1px solid rgb(221, 18, 72);
+    background-color:  rgb(221, 18, 72);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+
+}
