@@ -1,0 +1,388 @@
+
+/* Header Start */
+.container{
+    width: 1440px;
+    margin: auto;
+    padding: 0 50px;
+    
+    
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-head-left{
+    color: #323232;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.top-head-right{
+    
+    background-color: #f9dd00;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-weight: 800;
+}
+
+.top-head-right a{
+    color:#363632;
+}
+
+.top-head-icons{
+    display: flex;
+    gap: 20px;
+    margin-left: 2rem;
+}
+
+
+a{
+    color: #323232;    
+}
+
+.header-bottom{
+    display: flex;
+    background-image: url("./icons/main-foto.jpeg");
+    height: 1140px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+}
+
+.logo{
+    padding-top: 8px;
+    padding-left: 25px;
+}
+
+
+
+
+.navbar {
+    margin-left: 20rem;
+    margin-top: 1rem;
+    padding-top: 17px;
+
+   
+}
+
+.navbar nav ul{
+    display: flex;
+     gap: 20px;
+}
+
+.navbar nav ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16px;
+}
+/* Header End */
+
+
+
+
+/* Main Start */
+/* Section logo-navbar Start */
+.main-container{
+    width: 1440px;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: -463px;
+}
+    
+
+.academy-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.academy-info .cards{
+    
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+
+.left{
+    padding-left:35px;
+}
+
+.header-left{
+    letter-spacing: -.1px;
+    color: #4a4a4a;
+    
+}
+
+.header-left h1{
+ 
+    font-weight: 700;
+    font-size: 48px;
+   
+}
+
+.header-left h2{
+    font-size: 38px;
+    font-weight: 200;
+   
+}
+
+
+p{
+    font-size: 16px;
+    font-weight: 100;
+    color: #888888;
+
+}
+.first-p p{
+    width: 450px;
+}
+
+.line{
+    padding: 30px 0;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid #d3d3d5;
+    box-shadow: 0 22px 33px 0 rgb(0 0 0 / 16%);
+    color: #4e4e4e;
+    width: 38%;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.card:first-child:hover{
+    background-color: #872891;
+    color: #fff;
+
+}
+
+
+
+
+.card:nth-child(2):hover{
+    background-color: #FFCD05;
+    color: #fff;
+
+}
+
+.card:nth-child(3):hover{
+    background-color: #00B45A;
+    color: #fff;
+
+}
+
+.card:last-child:hover{
+    background-color: #2382C8;
+    color: #fff;
+
+}
+
+
+.cards h3{
+    margin-top: 40px;
+}
+/* Section logo-navbar End */
+
+
+
+/* Section why-part Start */
+.third-container{
+    width: 1440px;
+    margin: auto;
+    padding: 0 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+
+
+.header-left h4{
+    
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: lowercase;
+    letter-spacing: -1.5px;
+    color: #4e4e4e;
+}
+
+.header-left h1{
+    font-size: 50px;
+    letter-spacing: -1.2px;
+}
+
+.second-p{
+    width: 550px;
+
+}
+/* Section why-part End */
+
+
+
+
+/* Section articles Start */
+.articles-container{
+
+    width: 1440px;
+    margin: auto;
+    padding: 0 50px;
+    margin-bottom: 100px;
+   
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.article{
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 25px 25px 25px 25px;
+    background-color: #FFFFFF;
+    display: flex;
+
+}
+
+.article img{
+    width: 200px;
+    height: 190px;
+    margin-right: 40px;
+}
+
+.paragraph-left .second p{
+      color: #323232; 
+}
+
+.text .content-text p{
+    width: 300px;
+    color: #323232;
+}
+
+
+.read-more{
+    margin-top: 30px;
+
+}
+
+.read-more a {
+    
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 1.33em;
+    color: #4A4A4A;
+    
+}
+
+.title a h3{ 
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: #323232;
+}
+/* Section Articles End */
+
+
+
+
+/* Section status-counter Start */
+.counter-container{
+    width: 1440px;
+    margin: auto;
+    padding: 0 50px;
+    margin-bottom: 1200px;
+    
+}
+
+.counter{
+    background-attachment: fixed;
+    background-image: url("./icons/code-academy-cafeteria.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+   
+}
+
+.counter::before{
+    content: '';
+    background-color: #0e0505;
+    opacity: 0.6;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.counter-content{
+    position: relative;
+}
+
+.counter-header p{
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 1.33em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.content-info{
+    
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    
+}
+.info{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.info-text{
+    width: 300px;
+    text-align: center;
+   
+}
+
+ .count span{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 70px;
+    letter-spacing: -1.2px;
+}
+
+.info-text span{
+   
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 0.8em;
+    letter-spacing: -1.5px;
+}
+/* Section status-counter End */
+/* Main End */

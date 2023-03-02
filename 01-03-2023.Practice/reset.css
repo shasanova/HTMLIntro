@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "visby cf", Sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('./Fonts/Fontspring-DEMO-visbycf-regular.otf');
+}
+
+@font-face {
+    font-family: "Visby CF", Sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-display: auto;
+    src: url('./Fonts/VisbyCF-Bold_2.woff2');
+}
+
+body {
+    font-family: "visby cf", Sans-serif;
+}

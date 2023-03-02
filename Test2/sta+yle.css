@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    align-items: stretch;
+  
+    background-color: #ecb9b9;
+  }
+  
+  .flex-container > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-container :nth-child(3){
+    flex:2 0 200px;
+  }
