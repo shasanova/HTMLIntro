@@ -1,0 +1,609 @@
+/* Header Start */
+header {
+    background-color: #f5f3f1;
+    padding-top: 20px;
+
+
+
+}
+
+.header-container {
+    max-width: 1340px;
+    margin: auto;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo a img {
+    width: auto;
+    height: 3rem;
+    margin-right: 20px;
+}
+
+.brand-name {
+    font-weight: 600;
+    font-size: 1.250rem;
+}
+
+.brand-name a {
+    color: #232323;
+}
+
+
+/* header right */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    color: #090909;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.icons a {
+    color: #000000 !important;
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+    margin-right: 20px;
+}
+
+/* Header End */
+
+/* Main Start */
+/* Section Introduction-Part Start */
+.introduction-container {
+    width: 100vw;
+    height: 900px;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    background-image: url('./Icons/background9.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.introduction-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+    background-color: rgb(242, 242, 242);
+}
+
+
+.content {
+    max-width: 1340px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+.content-left {
+    width: 500px;
+
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 3.9376rem;
+    font-weight: bolder;
+    line-height: 1.1;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    color: #323232;
+
+
+
+}
+
+.read-more {
+    margin-top: 30px;
+}
+
+.read-more a {
+    font-weight: 600;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #ff2b09;
+    color: #000000;
+    padding: 0.6rem 2.8rem;
+}
+
+.read-more a:hover {
+    background-color: #ff2b09;
+    color: #fff;
+}
+
+
+.content-right {
+    margin-top: 30px;
+
+}
+
+.content-right img {
+    width: 600px;
+    height: 600px;
+}
+
+/* Section Introduction-Part End */
+
+
+
+
+/* Section About Start */
+.about {
+    max-width: 1340px;
+    margin: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #ffffff;
+
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    padding-bottom: 85px;
+}
+
+.cards {
+    display: flex;
+
+}
+
+.cards .card {
+
+    border: 1px solid transparent;
+    background: #f2f2f2;
+    padding: 50px 41px 50px;
+    margin: 25px;
+    text-align: center;
+
+}
+
+.about-header {
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 21px;
+}
+
+.about-text {
+    color: #464444;
+}
+
+.icon {
+    color: #ff2b09;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+}
+
+/* Section About End */
+
+
+
+
+
+/* Sectiono Accordion Start  */
+.accordion-container {
+    max-width: 1340px;
+    margin: auto;
+    padding-bottom: 5rem;
+    padding-left: 26px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.acc-left {
+    width: 394px;
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+
+.acc-left h1 {
+    text-align: left;
+    font-size: 2.9376rem;
+    line-height: 1.1;
+}
+
+.acc-left p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px 0;
+
+}
+
+.rows {
+    text-align: left;
+
+}
+
+.row {
+    border-top: 1px solid #313131;
+}
+
+.rows a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.row a i {
+    color: #ff2b09;
+    float: right;
+
+}
+
+.acc-right img {
+    width: 680px;
+    height: 680px;
+
+}
+
+.end {
+    border-bottom: 1px solid #313131;
+}
+
+/* Sectiono Accordion Start  */
+
+
+
+
+
+
+
+
+/* Section Must-Know Start */
+.must-know-container {
+    max-width: 1340px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+
+}
+
+.must-know {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12.5rem 0;
+    background: #f2f2f2;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+.content-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-header h1 {
+    font-size: 2.9376rem;
+    line-height: 1.1;
+}
+
+.container-btn a {
+    color: #797979;
+    font-weight: 800;
+}
+
+
+.container-btn a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+/* Section Must-Know End */
+
+
+
+/* Section Devoted-to Start */
+.devoted-to-container {
+    max-width: 1340px;
+    margin: auto;
+}
+
+.devoted-to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side-photo img {
+    width: 600px;
+    height: 600px;
+}
+
+.devoted-right {
+    margin-left: 90px;
+    text-align: left;
+}
+
+.devoted-title {
+    font-size: 2.9376rem;
+    line-height: 1.1;
+}
+
+.devoted-note {
+    color: #626262;
+    margin-top: 9px;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4375rem;
+    line-height: 1.5;
+
+}
+
+
+.devoted-p {
+    padding-top: 10px;
+    font-size: 1.0525rem;
+    line-height: 1.5;
+
+}
+/* Section Must-Know End */
+
+
+
+
+/* Section Special-Offers Start */
+.special-offers-container {
+    max-width: 1340px;
+    margin: auto;
+    margin-top: 11rem;
+
+
+
+
+
+}
+
+
+.special-offers{   
+    width: 100%;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+
+.right-foto img{
+    width: 220px;
+    margin-top: 11rem;  
+}
+
+
+.special-left{
+    padding-right: 16px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.special-right{
+    max-width: 100%;
+    height: 600px;
+    background-color: #f2f2f2;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    padding-right: 4rem;
+}
+
+
+.content-title{
+    font-size: 1.875rem;
+    line-height: 1.1;
+}
+/* Section Special-Offers End */
+
+
+/* Section Care-Cream Start */
+.products-container{
+    max-width: 1340px;
+    margin: auto;
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+
+.care-cream{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.care-left{
+    width: 100%;
+}
+
+
+.care-right{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.wrapper{
+    position: relative;
+}
+
+
+.wrapper img{
+    width: 300px;
+    height: 400px;
+} 
+
+.care-left-title{
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #000;
+    padding-right: 160px;
+}
+
+
+.care-left-note{
+    color: #626262;
+    padding-top: 10px;
+    margin-top: 0;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4375rem;
+    line-height: 1.5;
+
+}
+
+.name {
+    color: #000000;
+    left: 0;
+    right: 0;
+    bottom: 51px;
+    position: absolute;
+    text-align: center; 
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.card-left-p{
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-top: 10px;
+
+}
+/* Section Care-Cream End */
+
+
+
+
+
+/*Section BestSellers Start */
+ .bestsellers-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .b-header{
+    text-align: center;
+    padding-bottom: 80px;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 1.1;
+ }
+
+ .b-cards{
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+
+ .b-card img{
+    width: 412px;
+    height: 500px;
+ }
+
+
+.b-card{
+    position: relative;
+}
+/*Section BestSellers End */
+
+
+
+
+
+
+
+
+
+/* Main Start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main End */
