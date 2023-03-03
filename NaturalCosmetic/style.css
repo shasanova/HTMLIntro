@@ -487,7 +487,7 @@ nav ul li a {
     padding-bottom: 80px;
     color: #000000;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 2.9376rem;
     line-height: 1.1;
  }
 
@@ -513,9 +513,80 @@ nav ul li a {
 
 
 
+/* SEction Recommended Start */
+.recommended-content{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.icon-rows{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.item-row img{
+    padding: 1rem 0;
+    opacity: 0.7;
+    width: 120px;
+    padding: 5px;
+}
+/* SEction Recommended End */
 
 
 
+
+
+
+
+
+
+
+.contact-us-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 40px;
+
+}
+
+.left-side{
+    font-size: 1.875rem;
+    line-height: 1.1;
+    padding-left: 70px;
+}
+
+.left-side span{
+    color: #626262;
+    padding-top: 10px;
+    margin-top: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4375rem;
+    line-height: 1.5;
+}
+
+.brand-contacts {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.brand-contacts a{
+    font-size: 1.0525rem;
+    line-height: 1.5;
+    color: #000000;
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* Main Start */

@@ -12,3 +12,7 @@ li{
 body{
     font-family: 'Syne', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
