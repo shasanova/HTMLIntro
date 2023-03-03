@@ -586,8 +586,36 @@ nav ul li a {
 .inputs{
     display: flex;
     flex-direction: column;
+    
 }
 
+.top{
+    
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 135px;
+    margin: 0;
+    border: 0px;
+    outline: 2px solid #cdcdcb;
+
+}
+
+.bottom{
+    padding-top:25px;
+    padding-left: 17px;
+    outline: 2px solid #cdcdcb;
+    margin: 0;
+    border: 0px;
+
+}
+
+
+.name-input{
+    margin-right: -4px;
+
+
+}
 
 /* Main Start */
 
