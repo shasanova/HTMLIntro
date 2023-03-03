@@ -2,28 +2,22 @@
 header {
     background-color: #f5f3f1;
     padding-top: 20px;
-
-
-
 }
 
 .header-container {
     max-width: 1340px;
     margin: auto;
-
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .header-left {
     display: flex;
     align-items: center;
-
 }
 
 .logo a img {
@@ -64,8 +58,9 @@ nav ul li a {
     padding-right: 0.5rem;
     margin-right: 20px;
 }
-
 /* Header End */
+
+
 
 /* Main Start */
 /* Section Introduction-Part Start */
@@ -103,14 +98,10 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     position: relative;
-
-
-
 }
 
 .content-left {
     width: 500px;
-
 }
 
 .title {
@@ -126,9 +117,6 @@ nav ul li a {
     font-family: 'EB Garamond', serif;
     font-size: 25px;
     color: #323232;
-
-
-
 }
 
 .read-more {
@@ -149,17 +137,14 @@ nav ul li a {
     color: #fff;
 }
 
-
 .content-right {
     margin-top: 30px;
-
 }
 
 .content-right img {
     width: 600px;
     height: 600px;
 }
-
 /* Section Introduction-Part End */
 
 
@@ -174,7 +159,6 @@ nav ul li a {
     padding-left: 16px;
     padding-right: 16px;
     background-color: #ffffff;
-
 }
 
 .about h1 {
@@ -186,11 +170,9 @@ nav ul li a {
 
 .cards {
     display: flex;
-
 }
 
 .cards .card {
-
     border: 1px solid transparent;
     background: #f2f2f2;
     padding: 50px 41px 50px;
@@ -219,8 +201,6 @@ nav ul li a {
 
 
 
-
-
 /* Sectiono Accordion Start  */
 .accordion-container {
     max-width: 1340px;
@@ -231,9 +211,7 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
 
 .acc-left {
     width: 394px;
@@ -241,9 +219,7 @@ nav ul li a {
     margin-left: 30px;
     flex-direction: column;
     justify-content: left;
-
 }
-
 
 .acc-left h1 {
     text-align: left;
@@ -260,7 +236,6 @@ nav ul li a {
 
 .rows {
     text-align: left;
-
 }
 
 .row {
@@ -278,13 +253,11 @@ nav ul li a {
 .row a i {
     color: #ff2b09;
     float: right;
-
 }
 
 .acc-right img {
     width: 680px;
     height: 680px;
-
 }
 
 .end {
@@ -296,18 +269,12 @@ nav ul li a {
 
 
 
-
-
-
-
 /* Section Must-Know Start */
 .must-know-container {
     max-width: 1340px;
     margin: auto;
     padding-left: 16px;
     padding-right: 16px;
-
-
 }
 
 .must-know {
@@ -335,7 +302,6 @@ nav ul li a {
     color: #797979;
     font-weight: 800;
 }
-
 
 .container-btn a:hover {
     color: #ff0000;
@@ -379,15 +345,12 @@ nav ul li a {
     font-family: 'EB Garamond', serif;
     font-size: 1.4375rem;
     line-height: 1.5;
-
 }
-
 
 .devoted-p {
     padding-top: 10px;
     font-size: 1.0525rem;
     line-height: 1.5;
-
 }
 /* Section Must-Know End */
 
@@ -399,13 +362,7 @@ nav ul li a {
     max-width: 1340px;
     margin: auto;
     margin-top: 11rem;
-
-
-
-
-
 }
-
 
 .special-offers{   
     width: 100%;
@@ -413,12 +370,10 @@ nav ul li a {
     background-color: #f2f2f2;
 }
 
-
 .right-foto img{
     width: 220px;
     margin-top: 11rem;  
 }
-
 
 .special-left{
     padding-right: 16px;
@@ -436,7 +391,6 @@ nav ul li a {
     padding: 2rem;
     padding-right: 4rem;
 }
-
 
 .content-title{
     font-size: 1.875rem;
@@ -459,11 +413,9 @@ nav ul li a {
     align-items: center;
 }
 
-
 .care-left{
     width: 100%;
 }
-
 
 .care-right{
     width: 100%;
@@ -471,7 +423,6 @@ nav ul li a {
     justify-content: space-evenly;
     align-items: center;
 }
-
 
 .wrapper{
     position: relative;
@@ -481,6 +432,7 @@ nav ul li a {
 .wrapper img{
     width: 300px;
     height: 400px;
+    position: relative;
 } 
 
 .care-left-title{
@@ -499,7 +451,6 @@ nav ul li a {
     font-family: 'EB Garamond', serif;
     font-size: 1.4375rem;
     line-height: 1.5;
-
 }
 
 .name {
@@ -517,7 +468,6 @@ nav ul li a {
     font-size: 1rem;
     line-height: 1.5;
     padding-top: 10px;
-
 }
 /* Section Care-Cream End */
 
@@ -532,7 +482,7 @@ nav ul li a {
     flex-direction: column;
  }
 
- .b-header{
+ .content-header{
     text-align: center;
     padding-bottom: 80px;
     color: #000000;
@@ -544,7 +494,8 @@ nav ul li a {
  .b-cards{
     display: flex;
     justify-content: space-between;
-
+    flex-wrap: wrap;
+    row-gap: 40px;
  }
 
 
