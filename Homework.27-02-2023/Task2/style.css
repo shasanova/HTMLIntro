@@ -19,7 +19,6 @@
     width: 75%;
     display: flex;
     justify-content: center;
-    
     height: 30px;
   
 
@@ -33,7 +32,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 50px;
     order: -5;
     flex-grow: 5;
