@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url(https://preview.colorlib.com/theme/cloud83/img/bg.jpg.webp);
+  background-size: cover;
+  height: 948px;
+  width: 100%;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  z-index: 100;
+}
+
+.all-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.63);
+  padding: 54px 0px;
+  border-bottom: 2px solid #25ae88;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+.all-header .center a {
+  color: #fff;
+}
+.all-header .home {
+  background-color: #556080;
+}
+.all-header .buttons {
+  display: flex;
+  gap: 10px;
+}
+.all-header .buttons .first {
+  background-color: #556080;
+}
+.all-header .buttons .second {
+  background-color: #7fabda;
+}
+.all-header .buttons .third {
+  background-color: #25ae88;
+}
+.all-header .buttons a {
+  text-decoration: none;
+  padding: 10px 30px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

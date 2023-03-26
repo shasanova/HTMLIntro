@@ -1,0 +1,28 @@
+*{
+    text-decoration: none;
+}
+
+
+.dropdown{
+    position: relative;
+    .dp-content{
+        background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        display: none;
+        a{
+            color: #df9696;
+        }
+       
+    }
+    &:hover{
+        .dp-content{
+            display: flex;
+            cursor: pointer;
+        }
+    }
+}
+
+
+

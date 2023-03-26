@@ -1,0 +1,84 @@
+@import url(./reset.css);
+.top-header {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-header a {
+  color: #6f7171;
+  font-size: 12px;
+}
+.top-header .first-a {
+  color: #2e3131;
+  font-weight: bold;
+}
+.top-header .right a {
+  margin-left: 10px;
+}
+.top-header .search {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 2px 5px;
+  display: inline;
+}
+
+.bottom-header {
+  background-color: #e8ecf1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-header .left-bottom {
+  padding: 20px 0;
+}
+.bottom-header .left-bottom a {
+  color: #4a4d4e;
+  font-size: 13px;
+  margin-right: 13px;
+}
+.bottom-header .right-bottom span {
+  border-radius: 10px;
+  background-color: #f45369;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.lottery-content {
+  background-color: #e8ecf1;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lottery-content:hover .lottery-right {
+  overflow: hidden;
+}
+.lottery-content:hover .lottery-right img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.lottery-left {
+  width: 50%;
+}
+.lottery-left h6 {
+  color: #2e3131;
+  font-size: 30px;
+}
+.lottery-left button {
+  margin-top: 20px;
+  padding: 20px 100px;
+  background-color: #f45369;
+  font-weight: bold;
+}
+.lottery-left button:hover {
+  background-color: #ff2b09;
+}
+
+.lottery-right {
+  width: 50%;
+}
+.lottery-right img {
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */

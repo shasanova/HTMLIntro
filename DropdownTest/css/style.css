@@ -1,0 +1,21 @@
+* {
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown .dp-content {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  display: none;
+}
+.dropdown .dp-content a {
+  color: #df9696;
+}
+.dropdown:hover .dp-content {
+  display: flex;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

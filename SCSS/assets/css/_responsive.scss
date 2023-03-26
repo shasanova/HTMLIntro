@@ -1,0 +1,35 @@
+@media (max-width:576px) {
+    // .navbar {
+    //     .navlinks{
+    //         a{
+    //             display: none;
+    //         }
+    //     }
+
+    //     .toggle_btn{
+    //         display: block;
+         
+    //     }
+    // }
+    .lost,
+    .lost-2 {
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    .navbar {
+        .navlinks{
+            a{
+                display: none;
+            }
+        }
+        .toggle_btn{
+            display: block;
+         
+        }
+    
+    }
+    
+}
+

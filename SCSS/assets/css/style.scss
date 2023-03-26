@@ -1,0 +1,703 @@
+@import '_reset.scss';
+@import '_static.scss';
+@import '_responsive.scss';
+
+
+
+
+
+// Section Discover Start
+.discover-tours {
+    background-image: url('https://getmasum.com/html-preview/nour/assets/img/slider/1.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    min-height: 650px;
+    display: inline-block;
+    margin-top: 90px;
+    .discover-overlay {
+        background: rgba(0, 0, 0, 0.5);
+        min-height: 650px;
+    }
+
+    .content {
+        margin-top: 150px;
+        h1 {
+            color: #fff;
+            font-size: 55px;
+            margin-bottom: 50px;
+            line-height: 1.4;
+            text-transform: capitalize;
+        }
+
+        p {
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 17px;
+        }
+
+        a{
+            @extend .btn-style;
+
+            &:hover{
+                background-color: transparent;
+                border: 2px solid #fff;
+            }
+        }
+
+    }
+
+}
+// Section Discover End
+
+
+
+// Section Activities Start
+.all-cards {
+    padding: 130px 0;
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            border: none;
+            margin-bottom: 20px;
+
+            i {
+                font-size: 60px;
+                color: #6168FF;
+
+            }
+
+
+            .card-title {
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 15px;
+                color: #515151;
+            }
+
+            .card-text {
+                color: #8d8d8d;
+            }
+
+        }
+    }
+
+
+    .image {
+        position: relative;
+        box-shadow: 18px 18px 26px 0 rgba(0, 1, 1, .2);
+
+        img {
+            width: 100%;
+        }
+
+        .ybtn {
+            background-color: #6168FF;
+            color: #fff;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: .5s;
+
+            i {
+                span {
+                    font-size: 45px;
+                    line-height: 80px;
+
+                }
+
+
+            }
+        }
+    }
+}
+
+// Section Activities End
+
+
+
+// Common Classes
+.title_text_shadow {
+    line-height: 1;
+    top: -10px;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 700 !important;
+    font-size: 73px;
+    color: #efefef;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.sections-title {
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+
+    h5 {
+
+        margin-top: 0;
+        position: relative;
+        text-transform: uppercase;
+        font-size: 15px;
+        line-height: 1.3;
+        margin-bottom: 0px;
+        color: #6168FF;
+    }
+
+    p {
+        font-size: 27px;
+        margin-bottom: 0;
+        line-height: 38px;
+        color: #333;
+    }
+
+}
+
+
+.box-style {
+    margin: 0 0px 30px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    border: 1px solid #ebe6de;
+
+}
+
+
+.rating-style {
+    color: #fec42d;
+    margin-bottom: 9px;
+    font-size: 13px;
+}
+
+
+
+.btn-style {
+    background-color: #6168FF;
+    border: 2px solid #6168FF;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    padding: 16px 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer_links_style {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: #6168FF;
+        }
+    }
+
+}
+
+// Common Classes
+
+
+
+// Section Deals Start 
+.container {
+
+
+    .deals-title {
+        @extend .sections-title;
+        .bg_title_text {
+            @extend .title_text_shadow;
+        }
+    }
+
+    .bg_title_text {
+        @extend .title_text_shadow;
+    }
+
+    .deal-cards {
+
+        .card {
+            border: 1px solid #ebe6de;
+            gap: 20px;
+            
+    
+            .card-body {
+                span {
+                    font-size: 16px;
+                    font-weight: 5 00;
+                    float: right;
+                    color: #727272;
+                }
+            }
+        }
+
+        .card-title {
+            display: inline;
+            font-size: 20px;
+            color: #333333;
+
+        }
+
+        .card-text {
+            margin-top: 10px;
+            color: #bababa;
+
+            i {
+                font-size: 15px;
+                margin-right: 8px;
+            }
+        }
+
+    }
+}
+
+// Section Deals End 
+
+
+
+
+// Section Service Starts 
+.section-title {
+    @extend .sections-title;
+
+    &::after {
+        content: 'SERVICES';
+        @extend .title_text_shadow;
+    }
+}
+
+.box {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 35px 25px 20px;
+    border-radius: 5px;
+    transition: .5s;
+    background-color: #F4F9FF;
+
+    .icon {
+        color: #6168FF;
+        margin-right: 20px;
+        display: inline-block;
+        line-height: 0;
+
+        i {
+            font-size: 50px;
+        }
+    }
+
+    .body {
+        h4 {
+            margin-top: 0px;
+            // font-family: 'Nunito', sans-serif;
+            color: #333;
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+
+        p {
+            color: #8c8d8f;
+        }
+
+    }
+}
+
+// Section Service End 
+
+
+
+
+// Section Gallery Start
+.gallery-title {
+    @extend .sections-title;
+
+    &::after {
+        content: 'GALLERY';
+        @extend .title_text_shadow;
+    }
+
+}
+
+.gallery-box {
+    position: relative;
+
+    h5 {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        opacity: 0;
+        transition: 1s;
+    }
+
+    &:hover {
+        h5 {
+            opacity: 1;
+            top: 50%;
+            left: 50%;
+        }
+    }
+
+    .gallery-body {
+        .gallery_icon {
+            background-color: #fff;
+            color: #333;
+            width: 45px;
+            height: 45px;
+            line-height: 52px;
+            position: absolute;
+            right: 0px;
+            bottom: 20px;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 19px;
+            transition: .5s;
+            opacity: 0;
+
+            &:hover {
+                background-color: #333333;
+                color: #fff;
+            }
+        }
+
+    }
+
+    &:hover .gallery_icon {
+        opacity: 1;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(97, 104, 255, .8);
+        transition: 1s;
+        opacity: 0;
+    }
+
+    &:hover::before {
+        opacity: 0.8;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+// Section Gallery End
+
+
+
+
+// Section Package Start
+.package-title {
+    @extend .sections-title;
+
+    &::after {
+        content: 'PACKAGE';
+        @extend .title_text_shadow;
+    }
+
+}
+
+.single-pack {
+    @extend .box-style;
+    // margin: 0 0px 30px;
+    // overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+    // border-radius: 5px;
+    // border: 1px solid #ebe6de;
+
+    &:hover {
+        .pack_price {
+            background-color: red;
+        }
+
+    }
+
+
+    a {
+        color: #333;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .pack-hover {
+        padding: 30px;
+        position: relative;
+
+        .tour-rating {
+            @extend .rating-style;
+        }
+
+        .pack_price {
+            color: #fff;
+            font-size: 16px;
+            position: absolute;
+            top: -26px;
+            right: 10px;
+            background-color: #6168FF;
+            z-index: 9;
+            border-radius: 30px;
+            padding: 9px 18px;
+            transition: .5s;
+        }
+
+        .pack-meta {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+
+
+            .clock-icon {
+                margin-right: 10px;
+
+            }
+
+            .location-icon {
+                i {
+                    color: #000;
+
+
+
+                }
+
+            }
+
+        }
+
+
+
+
+    }
+}
+
+// Section Package End
+
+
+
+
+// Section Partners Start
+.container-partners {
+    margin-top: 100px;
+
+
+    .all-partners {
+        background-color: #6168FF;
+        padding: 80px 30px;
+        .partners-box {
+            width: 120px;
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+// Section Partners End
+
+
+
+
+// Section Testimonials Start
+.container-t {
+    padding-top: 130px;
+
+    .testimonials-title {
+        @extend .sections-title;
+
+        &::after {
+            content: 'TESTIMONIALS';
+            @extend .title_text_shadow;
+        }
+
+
+
+    }
+
+    .t-box {
+        background-color: #f4f9ff;
+        position: relative;
+        border-radius: 5px;
+        margin-right: 10px;
+
+        img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+
+        }
+
+        p {
+            margin-top: 30px;
+            padding: 0 50px;
+        }
+
+        .quote {
+            content: '';
+            position: absolute;
+            top: 21%;
+            right: 37%;
+            width: 40px;
+            height: 40px;
+            background-color: #6168FF;
+            border-radius: 50%;
+            overflow: hidden;
+
+            img {
+                max-width: 45%;
+                max-height: 45%;
+                position: absolute;
+                bottom: 30%;
+                left: 30%;
+
+            }
+        }
+        .tour-rating {
+            @extend .rating-style;
+        }
+    }
+}
+
+// Section Testimonials End
+
+
+
+// Section Blog Start
+.blog-title {
+    @extend .sections-title;
+
+    &::after {
+        content: 'BLOG';
+        @extend .title_text_shadow;
+    }
+
+}
+
+.blog-card {
+    @extend .box-style;
+
+    .card-body {
+        padding: 0 30px;
+        margin-bottom: 20px;
+    }
+
+    .blog-icon {
+
+        font-size: 14px;
+        overflow: hidden;
+
+        i {
+            margin-top: 35px;
+            margin-bottom: 14px;
+        }
+    }
+
+    .card-text {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #333;
+
+        &:hover {
+            color: #6168FF;
+        }
+
+    }
+}
+
+// Section Blog End
+
+
+
+
+// Section Contact Start 
+.contact-title {
+    @extend .sections-title;
+
+    &::after {
+        content: 'CONTACT';
+        @extend .title_text_shadow;
+    }
+
+}
+
+.all-content {
+    display: flex;
+    justify-content: center;
+
+    .contact {
+        background-color: #F4F9FF;;
+        padding: 55px 40px;
+        border-radius: 4px;
+
+        .all-contact {
+            .input {
+                input {
+                    width: 100%;
+                    padding: 13px 23px;
+                    border-radius: 4px;
+                    background-color: #fff;
+                    border-color: #fff;
+                    border-width: 1px;
+                    margin-bottom: 30px;
+                    border: none;
+
+                }
+
+                textarea {
+                    background: #fff none repeat scroll 0 0;
+                    border: none;
+                    padding: 5px 15px;
+                    height: 200px;
+                    width: 100%;
+                    margin-bottom: 20px
+                }
+            }
+
+            .input-btn {
+                input {
+                    @extend .btn-style;
+                    border: 2px solid #6168FF;
+
+                    &:hover {
+
+                        background: #211E3B;
+                        border: 2px solid #211E3B !important;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// Section Contact End 
