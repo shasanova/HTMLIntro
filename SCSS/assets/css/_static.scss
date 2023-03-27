@@ -1,99 +1,46 @@
-// .header {
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     z-index: 999;
-//     background-color: #fff;
-//     display: flex;
-   
-  
-//     .navbar-logo {
-//         width: 130px;
-//         height: auto;
-//         margin-top: 24px;
-    
-    
-//         img {
-//             width: 100%;
-//         }
-//     }
-//     .header_right {
+// Header Start
+.all-header{
+    .navbar{   
+       
+        overflow: hidden;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        opacity: .98;
+      
        
     
-//         .navbar {
-//             gap: 15px;
-//             margin-left: 40px;
-//             display: flex;
-//             a {
-//                 color: #333;
-//                 font-weight: 600;
-//                 font-family: 'Nunito', sans-serif;
-//                 transition: .5s;
-//                 font-size: 17px;
-//                 padding: 24px 0 20px;
-    
-//                 &:hover {
-//                     color: #6168FF;
-//                 }
-//             }
-//         }
-    
-//     }
-  
-//     .mobile-menu {
-//         span {
-//             font-size: 25px;
-//             font-weight: 900;
-//             line-height: 80px;
-//             cursor: pointer;
-//             display: none;
-//             float: right;
-//             color: #6168FF;
-//                 margin-left: 20px;
-
-//             .mobile-icon {
-//                 color: #6168FF;
-//                 margin-left: 20px;
-//             }
-//         }
-//     }
-// }
-
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-
-    .logo{
-        width: 137px;
-        img{
-            width: 100%;
-        }
-    }
-
-    .navlinks{
-        display: flex;
-        gap: 10px;
-        a{
-            color: #000;
-            &:hover{
-                color: #6168FF;
+        .logo{
+            width: 137px;
+            img{
+                width: 100%;
             }
         }
-    }
-
-    .toggle_btn{
-        color: #6168FF;
-        font-size: 24px;
-        font-weight: 900;
-        display: none;
+    
+        .navlinks{
+            display: flex;
+            gap: 10px;
+                margin-right: 60px;
+            a{
+                color: #000;
+                &:hover{
+                    color: #6168FF;
+                }
+            }
+        }
+    
+        .toggle_btn{
+            color: #6168FF;
+            font-size: 24px;
+            font-weight: 900;
+            display: none;
+            margin-right: 40px;
+        }
     }
 }
-
-
-
 
 // header End
 
@@ -202,9 +149,6 @@ footer {
 
 
 }
-
-
-
 // Footer End
 
 

@@ -12,33 +12,39 @@ li {
   list-style: none;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 20px;
+.all-header .navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  opacity: 0.98;
 }
-.navbar .logo {
+.all-header .navbar .logo {
   width: 137px;
 }
-.navbar .logo img {
+.all-header .navbar .logo img {
   width: 100%;
 }
-.navbar .navlinks {
+.all-header .navbar .navlinks {
   display: flex;
   gap: 10px;
+  margin-right: 60px;
 }
-.navbar .navlinks a {
+.all-header .navbar .navlinks a {
   color: #000;
 }
-.navbar .navlinks a:hover {
+.all-header .navbar .navlinks a:hover {
   color: #6168FF;
 }
-.navbar .toggle_btn {
+.all-header .navbar .toggle_btn {
   color: #6168FF;
   font-size: 24px;
   font-weight: 900;
   display: none;
+  margin-right: 40px;
 }
 
 footer {
@@ -103,16 +109,18 @@ footer .footer-bottom .social-media i:hover {
 }
 
 @media (max-width: 576px) {
-  .lost,
+  .deal-cards .lost {
+    display: none;
+  }
   .lost-2 {
     display: none;
   }
 }
 @media (max-width: 768px) {
-  .navbar .navlinks a {
+  .all-header .navbar .navlinks a {
     display: none;
   }
-  .navbar .toggle_btn {
+  .all-header .navbar .toggle_btn {
     display: block;
   }
 }
@@ -124,7 +132,7 @@ footer .footer-bottom .social-media i:hover {
   height: 100%;
   min-height: 650px;
   display: inline-block;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 .discover-tours .discover-overlay {
   background: rgba(0, 0, 0, 0.5);
